@@ -1,0 +1,184 @@
+
+*{
+    padding: 0px;
+    margin:  0px;
+}
+
+body{
+    background-color: purple;
+}
+
+.Hero{
+   background-color: #fcee0a;
+   margin-bottom: 0px;
+
+   padding: 0px;
+}
+
+.flexTop{
+    display: flex;
+    display: 100%;
+    padding: 0px;
+    margin: 0px;
+
+    justify-content: end;
+}
+
+.flexBottom{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.resume{
+    padding: 0px;
+    margin:  0px; 
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/NightCityDark.png');
+   /* background-image: url('./images/NightCityDark.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.resumeDiv{
+    display: inline-grid;
+    border: 2px solid #00f0ff;
+    padding: 10px;
+    margin-left: 305px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+   
+    border-top-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+
+.showcase{
+    background-color: #fcee0a;
+}
+
+
+
+
+.footers{
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .Hero{
+       
+    }
+
+    .resume{
+
+        background-position: center;
+        min-height: 100vh;
+        
+    }
+
+    .resumeDiv{
+       margin-left: 65px;
+       margin-right: 45px;
+    }
+
+
+    .Hero{
+        padding: 50px;
+    }
+    
+    
+
+    #FlexBottomCarsoul{
+        padding-top: 50px;
+    }
+   
+    .shift{
+        margin-left: 55px;
+        margin-right: 30px;
+    }
+}
+
+
+
+
+
+#YellowCYBER{
+    color: #fcee0a;
+}
+
+
+.HeaderSize{
+    font-weight: 500;
+    font-size: 2.4rem;
+    padding-bottom: 8px;
+}
+
+.ParaSize{
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+
+.ParaLogoSize{
+    height: 35px;
+}
+
+
+#heroPara{
+    font-weight: 400;
+}
+
+
+
+
+#farRight{
+justify-content: end;
+}
+
+#resumeDiv{
+    padding-left: 310px;
+}
+
+.BottomLogo{
+    height: 30px;
+}
+
+
+.hr1{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.colorY{
+    color: #fcee0a;
+}
+.colorB{
+   
+    color: #00f0ff;
+
+ 
+
+}
+/*#ffd500; */
+.donotcross {
+    overflow: hidden;
+    align-items: center;
+    background: #00ff2a;
+    color: black;
+    height: 2em;
+    line-height: 2em;
+  }
+
+  .donotcross::before, .donotcross::after {
+    background: white;
+    padding: 50px 0;
+    height: 0;
+    transform: rotate(45deg);
+    content: "";
+  }
